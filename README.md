@@ -2,7 +2,7 @@
 
 | Termin oddania | Punkty     |
 |----------------|:-----------|
-| 13.05.2021  23:00   |    10      |
+| 27.05.2022  23:00   |    10      |
 
 --- 
 Przekroczenie terminu o **n** zajęć wiąże się z karą:
@@ -46,5 +46,8 @@ Przekroczenie terminu o **n** zajęć wiąże się z karą:
 
 	Rozwiązanie zadania może zostać wykonane w dowolnym języku / technologii.
 	
-### Uwaga
+### Uwaga 1
 Projekt powinien również zawierać odpowiednie testy jednostkowe do implementowanej funkcjonalności.
+
+### Uwaga 2
+Dla uproszczenia implementacji można rozważyć implementację opartą na turach.
