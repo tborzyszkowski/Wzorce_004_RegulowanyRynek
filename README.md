@@ -2,7 +2,7 @@
 
 | Termin oddania | Punkty     |
 |----------------|:-----------|
-| 27.05.2022  23:00   |    10      |
+| 12.05.2023  23:00   |    10      |
 
 --- 
 Przekroczenie terminu o **n** zajęć wiąże się z karą:
@@ -21,15 +21,18 @@ Przekroczenie terminu o **n** zajęć wiąże się z karą:
 
     Celem sprzedawcy jest osiągnięcie jak największego zysku.
 
-- **Kupujący** posiadają potrzeby, zasady i pieniądze. 
-    Obserwują oferty produktów na rynku. Ich zachowanie opisują następujące reguły:
-    - chcą kupić określone produkty i śledzą ich ceny ale nie muszą ich kupić natychmiast
+- **Kupujący** posiadają potrzeby, zasady i pieniądze.
+    Produkty są podzielone na dwie kategorie: produkty pierwszej potrzeby i luksusowe.
+    Kupujący obserwują oferty produktów na rynku. Ich zachowanie opisują następujące reguły:
+    - nimimalna wielkość zakupu produktów pierszej potrzeby w jednostce czasu jest ustalona dla każdego kupującego
+    - chcą kupić określone produkty luksusowe i śledzą ich ceny ale nie muszą ich kupić natychmiast
     - mają wiedzę o skali inflacji
     - ich skłonność do zakupu produktu spada wraz z rosnącą ceną produktu, 
 	niezależnie czy wzrost cen był spowodowany inflacją czy marżą.
     
 - **Bank Centralny** obserwuje wzrost cen produktów oraz obroty na rynku.
-    Ustala bieżący poziom inflacji. Bank stara się utrzymać stałe wpływy podatkowe liczone jako 
+    Ustala bieżący poziom inflacji. 
+    Celem Banku stara się utrzymanie stałego wpływu podatkowego liczone jako 
     iloczyn inflacji i obrotów przy danej inflacji.
     
     
@@ -51,3 +54,6 @@ Projekt powinien również zawierać odpowiednie testy jednostkowe do implemento
 
 ### Uwaga 2
 Dla uproszczenia implementacji można rozważyć implementację opartą na turach.
+
+### Uwaga 3
+Zaimplementowany model powinien być stabilny i odporny na zakłócenia.
